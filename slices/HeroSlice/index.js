@@ -16,7 +16,7 @@ const HeroSlice = ({ slice }) => (
       <pre>{/*JSON.stringify(slice, null, 2)*/}</pre>
       <PrismicRichText field={slice.primary.title}/>
        <PrismicRichText field={slice.primary.description} />  
-       <PrismicNextImage className='image' field={slice.primary.image} />
+       <PrismicNextImage  field={slice.primary.image} />
        
     </div>
     
