@@ -84,19 +84,26 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+.image {
+  border-radius: 1rem;
+  width: fit-content;
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background:rgb(196, 196, 196);
+}
+.container1 {
+  font-size: 1.5rem;
+}
+section {
+  text-align: center;
+  line-height: 100px;
 }
 
 a {
-  color: inherit;
+  font-size: 2rem;
+  color: blueviolet;
   text-decoration: none;
 }
 
