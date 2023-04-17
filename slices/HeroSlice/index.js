@@ -43,7 +43,14 @@ const HeroSlice = ({ slice }) => (
    
   )
 }
+<div>
 
+  {slice.items.map((item, i ) => (
+    <PrismicLink field={item.cta_link} key={i}>
+      {item.cta_text}
+    </PrismicLink>
+  ))}
+</div>
     </div>
 
     
